@@ -1,6 +1,7 @@
 import Nav from "./components/Nav";
 import CustomerReviews from "./sections/CustomerReviews";
 import Footer from "./sections/Footer";
+import Hero from "./sections/Hero";
 import PopularProducts from "./sections/PopularProducts";
 import Services from "./sections/Services";
 import SpecialOffer from "./sections/SpecialOffer";
@@ -11,7 +12,9 @@ const App = () => {
   return (
     <main className="relative">
       <Nav />
-      <section className="xl:padding-1 wide:padding-r padding-b">Hero</section>
+      <section className="xl:padding-1 wide:padding-r padding-b">
+        <Hero />
+      </section>
       <section className="padding">
         <PopularProducts />
       </section>
