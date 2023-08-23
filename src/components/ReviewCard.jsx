@@ -1,6 +1,6 @@
 import { star } from "../assets/icons";
 
-const ReviewCard = ({ key, imgURL, customerName, rating, feedback }) => {
+const ReviewCard = ({ imgURL, customerName, rating, feedback }) => {
   return (
     <div className="flex justify-center items-center flex-col">
       <img
